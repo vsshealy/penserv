@@ -1,5 +1,5 @@
 /**
- * sass/external/font-awesome/files/classes.scss
+ * sass/theme/site/global.scss
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
@@ -8,13 +8,15 @@
  * Notes | 
 **/
 
-.fa {
+* {
     // GLOBAL
+    box-sizing: border-box;
+
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
     @media #{$screen-md} {} //COL-MD
-    @media #{$device-mobile} {} //DEVICE-MOBILE
+    @media #{$device-mobile} {} //MOBILE
 
     // DESKTOP
     @media #{$screen-lg} {} //COL-LG
@@ -22,35 +24,17 @@
 
     // BROWSERS
     @media #{$browser-ie} {} //IE
+} //*
 
-    &-li {
-        // GLOBAL
-        position: relative;
-        left: 0.00rem;
-        margin: $icon-margin;
-        
-        // MOBILE
-        @media #{$screen-xs} {} //COL-XS
-        @media #{$screen-sm} {} //COL-SM
-        @media #{$screen-md} {} //COL-MD
-        @media #{$device-mobile} {} //DEVICE-MOBILE
-
-        // DESKTOP
-        @media #{$screen-lg} {} //COL-LG
-        @media #{$screen-xl} {} //COL-XL
-
-        // BROWSERS
-        @media #{$browser-ie} {} //IE
-    } //.FA-LI
-} //.FA
-
-.fab {
+html {
     // GLOBAL
+    width: 100.00vw;
+
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
     @media #{$screen-md} {} //COL-MD
-    @media #{$device-mobile} {} //DEVICE-MOBILE
+    @media #{$device-mobile} {} //MOBILE
 
     // DESKTOP
     @media #{$screen-lg} {} //COL-LG
@@ -58,20 +42,39 @@
 
     // BROWSERS
     @media #{$browser-ie} {} //IE
-} //.FAB
+} //HTML
 
-.fas {
+body {
     // GLOBAL
+    width: 100.00%;
+    margin: $margin-none;
+    padding: $padding-none;
+    background-color: $grayscale-2;
+    font-family: $body-text;
+    font-size: $font-size-phone;
+    font-weight: $body-text-weight;
+    letter-spacing: $letter-spacing-normal;
+    line-height: $line-height-normal;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $body-text-color;
+
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
-    @media #{$screen-md} {} //COL-MD
-    @media #{$device-mobile} {} //DEVICE-MOBILE
+    @media #{$screen-md} {
+        font-size: $font-size-tablet;
+    } //COL-MD
+    @media #{$device-mobile} {} //MOBILE
 
     // DESKTOP
-    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-lg} {
+        font-size: $font-size-desktop;
+    } //COL-LG
     @media #{$screen-xl} {} //COL-XL
 
     // BROWSERS
     @media #{$browser-ie} {} //IE
-} //.FAS
+} //BODY
