@@ -11,7 +11,7 @@
 ?>
 
 <!-- FAVICON -->
-<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/logos/2019-01/icon-penserv_icon-500x500.png"/>
+<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/logos/2019/icon-penserv_icon-500x500.png"/>
 
 <!-- FONTS -->
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400|Roboto+Condensed|Roboto:100i,300,300i,400,400i,700&display=swap" rel="stylesheet"/>

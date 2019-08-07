@@ -186,7 +186,7 @@
                     height: 209px !important;
                     width: 100.00% !important;
                     display: block;
-                    background-image: url('.get_bloginfo('template_directory').'/assets/images/logos/2019-01/logo-penserv-fullvertical-color.svg) !important;
+                    background-image: url('.get_bloginfo('template_directory').'/assets/images/logos/2019/logo-penserv-fullvertical-color.svg) !important;
                     background-size: 100.00% !important;
                     margin: 0.00rem !important;
                 }
