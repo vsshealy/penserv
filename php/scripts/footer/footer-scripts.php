@@ -14,8 +14,8 @@
 
     <!-- THEME -->
     <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/script.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/retina.min.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/modernizr.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/retina/retina.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/external/modernizr.js"></script>
 
     <!-- WP-FOOTER -->
     <?php wp_footer(); ?>
