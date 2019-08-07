@@ -1,0 +1,76 @@
+{
+    "name": "penserv",
+    "description": "Setup required assets for theme.",
+    "type": "wordpress-theme",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Scott Shealy",
+            "email": "scott.shealy@penserv.com"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "../../plugins/{$name}/": [
+                "wpackagist-plugin/*",
+                "type:wordpress-plugin"
+            ]
+        }
+    },
+    "require": {
+        "wpackagist-plugin/advanced-custom-fields": "*",
+        "wpackagist-plugin/akismet": "*",
+        "wpackagist-plugin/amp": "*",
+        "wpackagist-plugin/wp-analytify": "*",
+        "wpackagist-plugin/analytify-analytics-dashboard-widget": "*",
+        "wpackagist-plugin/anywhere-elementor": "*",
+        "wpackagist-plugin/bbpress": "*",
+        "wpackagist-plugin/breadcrumb-navxt": "*",
+        "wpackagist-plugin/buddypress": "*",
+        "wpackagist-plugin/client-dash": "*",
+        "wpackagist-plugin/contact-form-7": "*",
+        "wpackagist-plugin/contact-form-7-multi-step-module": "*",
+        "wpackagist-plugin/cf7-conditional-fields": "*",
+        "wpackagist-plugin/custom-post-type-permalinks": "*",
+        "wpackagist-plugin/custom-post-type-ui": "*",
+        "wpackagist-plugin/dashboard-welcome-for-elementor": "*",
+        "wpackagist-plugin/display-posts-shortcode": "*",
+        "wpackagist-plugin/easy-wp-smtp": "*",
+        "wpackagist-plugin/elementor": "*",
+        "wpackagist-plugin/flamingo": "*",
+        "wpackagist-plugin/google-language-translator": "*",
+        "wpackagist-plugin/health-check": "*",
+        "wpackagist-plugin/hummingbird-performance": "*",
+        "wpackagist-plugin/mailchimp-for-wp": "*",
+        "wpackagist-plugin/megamenu": "*",
+        "wpackagist-plugin/optinmonster": "*",
+        "wpackagist-plugin/php-everywhere": "*",
+        "wpackagist-plugin/post-types-order": "*",
+        "wpackagist-plugin/redirection": "*",
+        "wpackagist-plugin/relevanssi": "*",
+        "wpackagist-plugin/schema": "*",
+        "wpackagist-plugin/search-filter": "*",
+        "wpackagist-plugin/shortcodes-ultimate": "*",
+        "wpackagist-plugin/wp-smushit": "*",
+        "wpackagist-plugin/social-warfare": "*",
+        "wpackagist-plugin/svg-support": "*",
+        "wpackagist-plugin/tawkto-live-chat": "*",
+        "wpackagist-plugin/theme-check": "*",
+        "wpackagist-plugin/white-label-cms": "*",
+        "wpackagist-plugin/widgetkit-for-elementor": "*",
+        "wpackagist-plugin/wordfence": "*",
+        "wpackagist-plugin/wp-retina-2x": "*",
+        "wpackagist-plugin/wp-super-cache": "*",
+        "wpackagist-plugin/wp-video-lightbox": "*",
+        "wpackagist-plugin/wordpress-seo": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+    "config": {
+        "secure-http": false
+    }
+}
