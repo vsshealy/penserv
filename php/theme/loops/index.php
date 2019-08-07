@@ -1,6 +1,6 @@
 <?php 
     /**
-     * php/theme/loops/content.php
+     * php/theme/loops/index.php
      * @package PenServ
      * @author Scott Shealy
      * @version 1.1.0
@@ -13,6 +13,6 @@
 <?php 
     while( have_posts() ) :
         the_post();
-        get_template_part("/php/theme/parts/content", "page");
+        get_template_part("/php/theme/parts/content", "index");
     endwhile;
 ?>
