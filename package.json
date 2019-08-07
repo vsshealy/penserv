@@ -1,0 +1,19 @@
+{
+  "name": "penserv",
+  "version": "1.1.0",
+  "description": "A custom WordPress theme built for PenServ Plan Services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsshealy/penserv.git"
+  },
+  "author": "Scott Shealy, Director of Marketing",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vsshealy/penserv/issues"
+  },
+  "homepage": "https://github.com/vsshealy/penserv#readme"
+}
