@@ -17,7 +17,7 @@ var
     autoprefixer = require("gulp-autoprefixer"),
     minifycss = require("gulp-uglifycss"),
     sourcemaps = require("gulp-sourcemaps")
-    ;
+;
 
 // FILES
 var paths = {
