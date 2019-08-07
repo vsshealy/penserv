@@ -1,0 +1,20 @@
+/**
+ * sass/variables/parts/files/footer.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// FOOTER STYLES
+$footer-height: auto;
+$footer-margin: $margin-none;
+$footer-padding: $padding-sm $padding-none;
+$footer-color: $color-penserv1;
+$footer-heading-color: lighten($footer-color, 100%);
+$footer-text: $font-sans;
+$footer-text-color: lighten($footer-color, 70%);
+$footer-text-size: $font-size-base;
+$footer-logo-size: $header-logo-size;

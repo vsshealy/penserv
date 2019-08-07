@@ -1,0 +1,25 @@
+/**
+ * sass/variables/text/main.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// FONTS
+$font-sans: Roboto, Helvetica, Arial, sans-serif;
+$font-serif: Merriweather, Georgia, serif;
+
+// TEXT SELECTIONS
+$heading-text: $font-serif;
+$body-text: $font-sans;
+
+// @IMPORT | FILES
+@import "files/font-sizes";
+@import "files/letter-spacing";
+@import "files/line-height";
+@import "files/headings";
+@import "files/body";
+@import "files/icons";

@@ -1,0 +1,19 @@
+/**
+ * sass/variables/media/templates/menus.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// GLOBAL
+// MOBILE
+@media #{$menu-mobile} {} //MOBILE
+
+// DESKTOP
+@media #{$menu-desktop} {} //DESKTOP
+
+// BROWSERS
+@media #{$browser-ie} {} //IE

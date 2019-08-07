@@ -1,0 +1,21 @@
+/**
+ * sass/variables/units/main.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// BASE UNIT
+$base-unit: 1.00rem;
+
+// SITE SETTINGS
+$site-width-min: 90.00%;
+$site-width-max: 1920px;
+
+// @IMPORT | FILES
+@import "files/grids";
+@import "files/margins";
+@import "files/paddings";

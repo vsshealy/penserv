@@ -1,0 +1,22 @@
+/**
+ * sass/variables/units/files/paddings.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// PADDING-BASE
+$padding-base: $base-unit;
+
+// PADDINGS
+$padding-none: $padding-base * 0.00;
+$padding-xxs: $padding-base * 0.50;
+$padding-xs: $padding-base * 1.00;
+$padding-sm: $padding-base * 2.00;
+$padding-md: $padding-base * 4.00;
+$padding-lg: $padding-base * 6.00;
+$padding-xl: $padding-base * 8.00;
+$padding-xxl: $padding-base * 10.00;

@@ -1,0 +1,19 @@
+/**
+ * sass/variables/media/files/devices.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// DEVICES
+$device-phone: "(max-width: 575px)";
+$device-tablet: "(min-width: 576px) and (max-width: 991px)";
+$device-mobile: "(max-width: 991px)";
+$device-desktop: "(min-width: 992px)";
+$device-desktop-sm: "(min-width: 992px)";
+$device-desktop-md: "(min-width: 1200px)";
+$device-desktop-lg: "(min-width: 1920px)";
+$device-desktop-xl: "(min-width: 3840px)";

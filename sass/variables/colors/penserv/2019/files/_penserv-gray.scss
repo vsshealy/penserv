@@ -1,0 +1,60 @@
+/**
+ * sass/variables/colors/penserv/2019/files/penserv-gray.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// PENSERV GRAY COLLECTION
+$penserv-gray-0: #ffffff;
+$penserv-gray-1: #f9fafb;
+$penserv-gray-2: #f4f6f7;
+$penserv-gray-3: #eef1f3;
+$penserv-gray-4: #e8edef;
+$penserv-gray-5: #e3e8eb;
+$penserv-gray-6: #dde3e7;
+$penserv-gray-7: #d7dfe3;
+$penserv-gray-8: #d1dadf;
+$penserv-gray-9: #ccd6db;
+$penserv-gray-10: #c6d1d7;
+$penserv-gray-11: #b2bcc1;
+$penserv-gray-12: #9ea7ac;
+$penserv-gray-13: #8b9296;
+$penserv-gray-14: #777d81;
+$penserv-gray-15: #63696c;
+$penserv-gray-16: #4f5456;
+$penserv-gray-17: #3b3f41;
+$penserv-gray-18: #282a2b;
+$penserv-gray-19: #141515;
+$penserv-gray-20: #000000;
+
+// PENSERV-GRAY-LIGHT
+$penserv-gray-light-1: lighten($penserv-gray, 8.33%);
+$penserv-gray-light-2: lighten($penserv-gray, 16.66%);
+$penserv-gray-light-3: lighten($penserv-gray, 25.00%);
+$penserv-gray-light-4: lighten($penserv-gray, 33.33%);
+$penserv-gray-light-5: lighten($penserv-gray, 41.66%);
+$penserv-gray-light-6: lighten($penserv-gray, 50.00%);
+$penserv-gray-light-7: lighten($penserv-gray, 58.33%);
+$penserv-gray-light-8: lighten($penserv-gray, 66.66%);
+$penserv-gray-light-9: lighten($penserv-gray, 75.00%);
+$penserv-gray-light-10: lighten($penserv-gray, 83.33%);
+$penserv-gray-light-11: lighten($penserv-gray, 91.66%);
+$penserv-gray-light-12: lighten($penserv-gray, 100.00%);
+
+// PENSERV-GRAY-DARK
+$penserv-gray-dark-1: darken($penserv-gray, 8.33%);
+$penserv-gray-dark-2: darken($penserv-gray, 16.66%);
+$penserv-gray-dark-3: darken($penserv-gray, 25.00%);
+$penserv-gray-dark-4: darken($penserv-gray, 33.33%);
+$penserv-gray-dark-5: darken($penserv-gray, 41.66%);
+$penserv-gray-dark-6: darken($penserv-gray, 50.00%);
+$penserv-gray-dark-7: darken($penserv-gray, 58.33%);
+$penserv-gray-dark-8: darken($penserv-gray, 66.66%);
+$penserv-gray-dark-9: darken($penserv-gray, 75.00%);
+$penserv-gray-dark-10: darken($penserv-gray, 83.33%);
+$penserv-gray-dark-11: darken($penserv-gray, 91.66%);
+$penserv-gray-dark-12: darken($penserv-gray, 100.00%);

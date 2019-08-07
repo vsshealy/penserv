@@ -1,0 +1,18 @@
+/**
+ * sass/variables/objects/files/buttons.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// BUTTONS
+$button-color: $color-link;
+$button-color-hover: lighten($button-color, $color-hover-adjustment);
+$button-color-alt: lighten($button-color, 100%);
+$button-font: $font-sans;
+$button-font-size: $font-size-base;
+$button-margin: $margin-sm $margin-none;
+$button-padding: $padding-xxs $padding-sm;

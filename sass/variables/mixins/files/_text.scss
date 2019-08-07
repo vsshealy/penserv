@@ -1,0 +1,22 @@
+/**
+ * sass/variables/mixins/files/text.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// TEXT-HEADINGS
+@mixin text-headings($from: 1, $to: 6) {
+    @for $i from $from through $to {
+        h#{$i} {
+            @content
+        }
+
+        .h#{$i} {
+            @content
+        }
+    }
+};

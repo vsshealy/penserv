@@ -1,0 +1,19 @@
+/**
+ * sass/variables/parts/files/header.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// HEADER STYLES
+$header-height: auto;
+$header-margin: $margin-none;
+$header-padding: $padding-xs $padding-xs;
+$header-color: $color-penserv1;
+$header-logo-size: 240px;
+$header-text: $font-sans;
+$header-text-color: lighten($header-color, 100%);
+$header-text-size: $font-size-base;

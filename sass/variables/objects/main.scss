@@ -1,0 +1,21 @@
+/**
+ * sass/variables/objects/main.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// OBJECT STYLES
+$color-accent: $color-penserv4;
+$color-link: $color-penserv4;
+$color-hover-adjustment: $color-adjustment-base * 1.00;
+$color-link-hover: lighten($color-link, $color-hover-adjustment);
+
+// @IMPORT | FILES
+@import "files/borders";
+@import "files/buttons";
+@import "files/forms";
+@import "files/shadows";

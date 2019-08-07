@@ -1,0 +1,22 @@
+/**
+ * sass/variables/master.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// THEME-PATH
+$theme-path: "/wp-content/themes/penserv";
+
+// @IMPORT | FILES
+@import "colors/main";
+@import "units/main";
+@import "media/main";
+@import "text/main";
+@import "objects/main";
+@import "images/main";
+@import "mixins/main";
+@import "parts/main";
