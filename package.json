@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vsshealy/penserv/issues"
   },
-  "homepage": "https://github.com/vsshealy/penserv#readme"
+  "homepage": "https://github.com/vsshealy/penserv#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
