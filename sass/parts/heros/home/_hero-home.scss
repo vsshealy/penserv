@@ -1,0 +1,164 @@
+/**
+ * sass/parts/heros/home/hero-home.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/7/2019
+ * Updated | 
+ * Notes | 
+**/
+
+#hero-home {
+    // GLOBAL
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    .elementor-container.elementor-column-gap-default {
+        // GLOBAL
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+        .elementor-row {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+            .elementor-element.elementor-column.elementor-top-column {
+                // GLOBAL
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+                .elementor-column-wrap.elementor-element-populated {
+                    // GLOBAL
+                    // MOBILE
+                    @media #{$screen-xs} {} //COL-XS
+                    @media #{$screen-sm} {} //COL-SM
+                    @media #{$screen-md} {} //COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                    @media #{$screen-lg} {} //COL-LG
+                    @media #{$screen-xl} {} //COL-XL
+
+                    // BROWSERS
+                    @media #{$browser-ie} {} //IE
+
+                    .elementor-widget-wrap {
+                        // GLOBAL
+                        // MOBILE
+                        @media #{$screen-xs} {} //COL-XS
+                        @media #{$screen-sm} {} //COL-SM
+                        @media #{$screen-md} {} //COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                        // DESKTOP
+                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-xl} {} //COL-XL
+
+                        // BROWSERS
+                        @media #{$browser-ie} {} //IE
+
+                        .elementor-widget-wp-widget-phpeverywherewidget {
+                            // GLOBAL
+                            // MOBILE
+                            @media #{$screen-xs} {} //COL-XS
+                            @media #{$screen-sm} {} //COL-SM
+                            @media #{$screen-md} {} //COL-MD
+                            @media #{$device-mobile} {} //MOBILE
+
+                            // DESKTOP
+                            @media #{$screen-lg} {} //COL-LG
+                            @media #{$screen-xl} {} //COL-XL
+
+                            // BROWSERS
+                            @media #{$browser-ie} {} //IE
+
+                            .elementor-widget-container {
+                                // GLOBAL
+                                // MOBILE
+                                @media #{$screen-xs} {} //COL-XS
+                                @media #{$screen-sm} {} //COL-SM
+                                @media #{$screen-md} {} //COL-MD
+                                @media #{$device-mobile} {} //MOBILE
+
+                                // DESKTOP
+                                @media #{$screen-lg} {} //COL-LG
+                                @media #{$screen-xl} {} //COL-XL
+
+                                // BROWSERS
+                                @media #{$browser-ie} {} //IE
+
+                                h5 {
+                                    // GLOBAL
+                                    // MOBILE
+                                    @media #{$screen-xs} {} //COL-XS
+                                    @media #{$screen-sm} {} //COL-SM
+                                    @media #{$screen-md} {} //COL-MD
+                                    @media #{$device-mobile} {} //MOBILE
+
+                                    // DESKTOP
+                                    @media #{$screen-lg} {} //COL-LG
+                                    @media #{$screen-xl} {} //COL-XL
+
+                                    // BROWSERS
+                                    @media #{$browser-ie} {} //IE
+                                } //H5
+
+                                // @IMPORT | .HERO-HOME
+                                @import "files/hero-home";
+
+                                // @IMPORT | HERO CUSTOMIZED
+                                @import "files/hero-1";
+                                @import "files/hero-2";
+                                @import "files/hero-3";
+                                @import "files/hero-4";
+                                @import "files/hero-5";
+
+                            } //.ELEMENTOR-WIDGET-CONTAINER
+                        } //.ELEMENTOR-WIDGET-WP-WIDGET-PHPEVERYWHEREWIDGET
+                    } //.ELEMENTOR-WIDGET-WRAP
+                } //.ELEMENTOR-COLUMN-WRAP.ELEMENTOR-ELEMENT-POPULATED
+            } //.ELEMENTOR-ELEMENT.ELEMENTOR-COLUMN-ELEMENTOR-TOP-COLUMN
+        } //.ELEMENTOR-ROW
+    } //.ELEMENTOR-CONTAINER.ELEMENTOR-COLUMN-GAP-DEFAULT
+} //#HERO-HOME

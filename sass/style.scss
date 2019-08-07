@@ -19,3 +19,10 @@
 
 // @IMPORT | FILES
 @import "theme/master";
+
+// @IMPORT | PLUGINS
+@import "plugins/elementor/main";
+@import "plugins/phpeverywhere/main";
+
+// @IMPORT | DEV
+@import "parts/heros/home/hero-home";
