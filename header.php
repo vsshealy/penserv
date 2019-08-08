@@ -10,4 +10,8 @@
     **/
 ?>
 
-<header id="header-primary"></header>
+<header id="header-primary">
+    
+    <?php include(get_template_directory()."/php/parts/header/header-horizontal.php"); ?>
+
+</header>

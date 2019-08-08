@@ -146,6 +146,8 @@
 
                     &-ghost {
                         // GLOBAL
+                        margin-bottom: $margin-none;
+
                         // MOBILE
                         @media #{$screen-xs} {} //COL-XS
                         @media #{$screen-sm} {} //COL-SM
@@ -162,6 +164,8 @@
 
                     &-solid {
                         // GLOBAL
+                        margin-bottom: $margin-none;
+
                         // MOBILE
                         @media #{$screen-xs} {} //COL-XS
                         @media #{$screen-sm} {} //COL-SM
@@ -177,6 +181,8 @@
 
                         &-mobile {
                             // GLOBAL
+                            margin-bottom: $margin-none;
+                            
                             // MOBILE
                             @media #{$screen-xs} {} //COL-XS
                             @media #{$screen-sm} {} //COL-SM
