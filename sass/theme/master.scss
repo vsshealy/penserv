@@ -10,6 +10,7 @@
 
 // @IMPORT | SITE
 @import "site/global";
+@import "text/main";
 
 // @IMPORT | LAYOUTS
 @import "layouts/clearfix";
@@ -18,6 +19,6 @@
 @import "layouts/wrappers";
 
 // @IMPORT | OBJECTS
-@import "objects/buttons";
+@import "objects/main";
 @import "objects/images";
 @import "objects/videos";

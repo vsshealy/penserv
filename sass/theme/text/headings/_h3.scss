@@ -1,0 +1,47 @@
+/**
+ * sass/theme/text/headings/h3.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/8/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// H3
+h3, .h3 {
+    // GLOBAL
+    font-size: $heading-text-size + ($heading-text-size-increase * 3.00);
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    // OVERRIDES
+    &.elementor-heading-title, &.elementor-text-editor, &.slider-title {
+        // GLOBAL
+        font-size: $heading-text-size + ($heading-text-size-increase * 3.00) !important;
+        
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+    } //OVERRIDES
+} //H3

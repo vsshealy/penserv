@@ -1,0 +1,51 @@
+/**
+ * sass/theme/objects/buttons/files/button-solid.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/8/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// .BUTTON-SOLID
+.button-solid, .elementor-button, .btn-slider, input.wpcf7-form-control.wpcf7.submit {
+    // GLOBAL
+    background-color: $button-color;
+    border: 1px solid $button-color-alt;
+    color: $button-color-alt;
+
+    &:hover {
+        background-color: $button-color-hover;
+        color: $button-color-alt;
+    } //:HOVER
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    i {
+        // GLOBAL
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+    } //I
+} //.BUTTON-SOLID

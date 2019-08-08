@@ -1,0 +1,64 @@
+/**
+ * sass/theme/text/headings/all.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/8/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// ALL
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    // GLOBAL
+    font-family: $heading-text;
+    line-height: $heading-text-height;
+    letter-spacing: $heading-text-kerning;
+    color: $heading-text-color;
+    margin: $heading-text-margin;
+
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    // OVERRIDES
+    &.elementor-heading-title, &.elementor-text-editor, &.slider-title {
+        // GLOBAL
+        font-family: $heading-text !important;
+        line-height: $heading-text-height !important;
+        letter-spacing: $heading-text-kerning !important;
+        color: $heading-text-color !important;
+        margin: $heading-text-margin !important;
+
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+    } //OVERRIDES
+} //ALL
+
+// @IMPORT | FILES
+@import "h1";
+@import "h2";
+@import "h3";
+@import "h4";
+@import "h5";
+@import "h6";

@@ -1,0 +1,37 @@
+/**
+ * sass/theme/text/body/all.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/8/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// ALL
+p, .p,
+li, .li {
+    // GLOBAL
+    font-family: $body-text;
+    font-size: $body-text-size;
+    line-height: $body-text-height;
+    letter-spacing: $body-text-kerning;
+    color: $body-text-color;
+    
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+} //P, LI
+
+// @IMPORT | FILES
+@import "p";
+@import "li";
