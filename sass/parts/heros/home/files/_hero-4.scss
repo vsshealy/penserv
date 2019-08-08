@@ -7,3 +7,212 @@
  * Updated | 
  * Notes | 
 **/
+
+#hero-home-4.hero-home {
+    // GLOBAL
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    .wrapper-inner {
+        // GLOBAL
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+        // .HERO-HOME-OVERLAY
+        .hero-home {
+            &-overlay-1 {
+                // GLOBAL
+                background: linear-gradient(135deg, rgba(darken($color-penserv1, 5%), 0.80), rgba(lighten($color-penserv1, 5%), 0.60), rgba(lighten($color-penserv1, 15%), 0.30));
+
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                @media #{$browser-ie} {} //IE
+            } //.HERO-HOME-OVERLAY-1
+
+            &-overlay-2 {
+                // GLOBAL
+                background: linear-gradient(60deg, rgba(darken($color-penserv2, 10%), 0.60), rgba(lighten($color-penserv2, 10%), 0.40), rgba(darken($color-penserv2, 25%), 0.20));
+
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                @media #{$browser-ie} {} //IE
+            } //.HERO-HOME-OVERLAY-2
+
+            &-overlay-3 {
+                // GLOBAL
+                background: linear-gradient(45deg, rgba(darken($color-penserv3, 5%), 0.80), rgba(lighten($color-penserv3, 5%), 0.60), rgba(lighten($color-penserv3, 15%), 0.30));
+
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                @media #{$browser-ie} {} //IE
+            } //.HERO-HOME-OVERLAY-3
+
+            &-overlay-4 {
+                // GLOBAL
+                background: linear-gradient(30deg, rgba(darken($color-penserv4, 10%), 0.80), rgba(lighten($color-penserv4, 5%), 0.60), rgba(lighten($color-penserv4, 15%), 0.10));
+
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                @media #{$browser-ie} {} //IE
+            } //.HERO-HOME-OVERLAY-4
+
+            &-overlay-5 {
+                // GLOBAL
+                background: linear-gradient(220deg, rgba(lighten($color-penserv5, 5%), 0.50), rgba(lighten($color-penserv5, 10%), 0.25), rgba(lighten($color-penserv5, 15%), 0.10));
+
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                @media #{$browser-ie} {} //IE
+            } //.HERO-HOME-OVERLAY-5
+        } //.HERO-HOME
+
+        // .HERO-HOME-BACKGROUND
+        .hero-home-background {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+            &-image {
+                // GLOBAL
+                background-image: url("#{$theme-path}/assets/images/stock/image-advisor01-1920x1080.jpg");
+                
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                @media #{$browser-ie} {} //IE
+            } //.HERO-HOME-BACKGROUND-IMAGE
+
+            &-video {
+                // GLOBAL
+                // MOBILE
+                @media #{$screen-xs} {} //COL-XS
+                @media #{$screen-sm} {} //COL-SM
+                @media #{$screen-md} {} //COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                @media #{$screen-lg} {} //COL-LG
+                @media #{$screen-xl} {} //COL-XL
+
+                // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+                video {
+                    // GLOBAL
+                    // MOBILE
+                    @media #{$screen-xs} {} //COL-XS
+                    @media #{$screen-sm} {} //COL-SM
+                    @media #{$screen-md} {} //COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                    @media #{$screen-lg} {} //COL-LG
+                    @media #{$screen-xl} {} //COL-XL
+
+                    // BROWSERS
+                    @media #{$browser-ie} {} //IE
+
+                    source {
+                        // GLOBAL
+                        // MOBILE
+                        @media #{$screen-xs} {} //COL-XS
+                        @media #{$screen-sm} {} //COL-SM
+                        @media #{$screen-md} {} //COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                        // DESKTOP
+                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-xl} {} //COL-XL
+
+                        // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                    } //SOURCE
+                } //VIDEO
+            } //.HERO-HOME-BACKGROUND-VIDEO
+        } //.HERO-HOME-BACKGROUND
+
+    } //.WRAPPER-INNER
+} //#HERO-HOME-4.HERO-HOME

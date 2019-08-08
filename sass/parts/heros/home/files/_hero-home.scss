@@ -7,3 +7,123 @@
  * Updated | 
  * Notes | 
 **/
+
+.hero-home {
+    // GLOBAL
+    height: $hero-home-height;
+    width: 100.00%;
+    display: block;
+    position: relative;
+
+    // MOBILE
+    @media #{$screen-xs} {
+        min-height: $hero-home-height;
+    } //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {
+        margin-bottom: $page-margin;
+        border: ($border-width * 2.00) solid $hero-home-color-primary;
+    } //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    .wrapper-inner {
+        // GLOBAL
+        height: 100.00%;
+        width: 100.00%;
+        position: relative;
+
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+        // LAYOUT
+        .hero-home-overlay {
+            // GLOBAL
+            height: 100.00%;
+            width: 100.00%;
+            position: absolute;
+            z-index: 0;
+
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //.HERO-HOME-OVERLAY
+
+        .hero-home-background {
+            // GLOBAL
+            height: 100.00%;
+            width: 100.00%;
+            position: absolute;
+            z-index: -1;
+
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //.HERO-HOME-BACKGROUND
+
+        .hero-home-text {
+            // GLOBAL
+            height: 100.00%;
+            width: 100.00%;
+            position: absolute;
+            z-index: 1;
+            
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //.HERO-HOME-TEXT
+
+        // .HERO-HOME-OVERLAY
+        @import "../../files/overlay";
+
+        // .HERO-HOME-BACKGROUND
+        @import "background";
+
+        // .HERO-HOME-TEXT
+        @import "text";
+
+    } //.WRAPPER-INNER
+} //.HERO-HOME

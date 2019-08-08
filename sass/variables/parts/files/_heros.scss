@@ -1,0 +1,17 @@
+/**
+ * sass/variables/parts/files/heros.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/8/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// HERO SECTIONS
+$hero-home-height: 100vh;
+$hero-home-color-primary: $color-penserv1;
+$hero-home-heading-text: $heading-text;
+$hero-home-heading-text-color: lighten($hero-home-color-primary, $color-adjustment-base * 12.00);
+$hero-home-body-text: $body-text;
+$hero-home-body-text-color: lighten($hero-home-color-primary, $color-adjustment-base * 11.00);
