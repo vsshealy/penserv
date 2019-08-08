@@ -24,5 +24,8 @@
 @import "plugins/elementor/main";
 @import "plugins/phpeverywhere/main";
 
+// @IMPORT | PARTS
+@import "parts/header/header-primary/header-primary";
+
 // @IMPORT | DEV
 @import "parts/heros/home/hero-home";
