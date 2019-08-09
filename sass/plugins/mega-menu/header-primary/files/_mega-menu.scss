@@ -1,0 +1,57 @@
+/**
+ * sass/plugins/mega-menu/header-primary/files/mega-menu.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/9/2019
+ * Updated | 
+ * Notes | 
+**/
+
+ul.mega-menu {
+    // GLOBAL
+    // MOBILE
+    @media #{$menu-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$menu-desktop} {
+        display: flex;
+        align-items: center;
+    } //DESKTOP
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    li.mega-menu-item {
+        // GLOBAL
+        font-size: $header-text-size;
+        line-height: $line-height-none;
+
+        // MOBILE
+        @media #{$menu-mobile} {
+            border-top: 1px solid lighten($header-color, $color-adjustment-base);
+        } //MOBILE
+
+        // DESKTOP
+        @media #{$menu-desktop} {} //DESKTOP
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+        // .MEGA-MENU-LINK
+        @import "mega-menu-link";
+
+        // .MEGA-SUB-MENU
+        @import "mega-sub-menu";
+
+    } //LI.MEGA-MENU-ITEM
+
+    // @IMPORT | LINK FILES
+    @import "../links/link-home";
+    @import "../links/link-services";
+    @import "../links/link-markets";
+    @import "../links/link-news";
+    @import "../links/link-contact";
+    @import "../links/link-login";
+    
+} //UL.MEGA-MENU

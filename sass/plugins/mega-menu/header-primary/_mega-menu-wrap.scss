@@ -1,0 +1,63 @@
+/**
+ * sass/plugins/mega-menu/header-primary/mega-menu-wrap.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/9/2019
+ * Updated | 
+ * Notes | 
+**/
+
+.mega-menu-wrap {
+    // GLOBAL
+    // MOBILE
+    @media #{$menu-mobile} {
+        background-color: $header-color;
+    } //MOBILE
+
+    // DESKTOP
+    @media #{$menu-desktop} {
+        background-color: transparent;
+    } //DESKTOP
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    // .MEGA-MENU-TOGGLE
+    @import "files/mega-menu-toggle";
+
+    // .MEGA-MENU
+    @import "files/mega-menu";
+
+    // VERSIONS
+    @import "horizontal/mega-menu";
+    @import "stacked/mega-menu";
+
+} //.MEGA-MENU-WRAP
+
+.mega-sticky-wrapper {
+    // GLOBAL
+    // MOBILE
+    @media #{$menu-mobile} {
+        background-color: $header-color;
+    } //MOBILE
+
+    // DESKTOP
+    @media #{$menu-desktop} {
+        background-color: rgba($header-color, 0.95);
+    } //DESKTOP
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    // .MEGA-MENU-TOGGLE
+    @import "files/mega-menu-toggle";
+
+    // .MEGA-MENU
+    @import "files/mega-menu";
+
+    // VERSIONS
+    @import "horizontal/mega-menu";
+    @import "stacked/mega-menu";
+
+} //.MEGA-STICKY-WRAPPER

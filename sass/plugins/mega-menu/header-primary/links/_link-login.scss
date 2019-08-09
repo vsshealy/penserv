@@ -1,0 +1,37 @@
+/**
+ * sass/plugins/mega-menu/header-primary/links/link-login.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/9/2019
+ * Updated | 
+ * Notes | 
+**/
+
+li.link-login {
+    // GLOBAL
+    @extend .button-solid;
+    margin-top: $margin-none;
+    margin-bottom: $margin-none;
+    
+    // MOBILE
+    @media #{$menu-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$menu-desktop} {} //DESKTOP
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    a.mega-menu-link {
+        // GLOBAL
+        // MOBILE
+        @media #{$menu-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$menu-desktop} {} //DESKTOP
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+    } //A.MEGA-MENU-LINK
+} //LI.LINK-LOGIN

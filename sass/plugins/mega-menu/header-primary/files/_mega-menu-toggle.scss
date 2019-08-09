@@ -1,0 +1,75 @@
+/**
+ * sass/plugins/mega-menu/header-primary/files/mega-menu-toggle.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/9/2019
+ * Updated | 
+ * Notes | 
+**/
+
+.mega-menu-toggle {
+    // GLOBAL
+    // MOBILE
+    @media #{$menu-mobile} {
+        height: auto;
+        padding: $header-padding;
+
+        .mega-toggle-blocks {
+            &-left {                
+                .mega-toggle-block.mega-html-block {
+                    width: 100.00%;
+                    display: block;
+                    margin: $margin-none;
+
+                    a {
+                        height: 40px;
+                        width: 100.00%;
+                        display: block;
+                        background-position: center left;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+
+                        @media screen and (max-width: 767px) {
+                            background-image: $logo-penserv-wordmark2-white;
+                        } //PHONE
+
+                        @media screen and (min-width: 768px) {
+                            background-image: $logo-penserv-fullhorizontal-white;
+                        } //TABLET
+                    } //A
+                } //.MEGA-TOGGLE-BLOCK.MEGA-HTML-BLOCK
+            } //.MEGA-TOGGLE-BLOCKS-LEFT
+
+            &-center {
+                display: none;
+            } //.MEGA-TOGGLE-BLOCKS-CENTER
+
+            &-right {
+                .mega-toggle-block.mega-menu-toggle-block {
+                    margin: $margin-none;
+                    align-items: center;
+                    font-size: ($header-text-size * 1.50);
+                    color: $header-text-color;
+
+                    &:after {
+                        margin: $margin-none;
+                    } //:AFTER
+
+                    // .mega-toggle-label {
+                    //     .mega-toggle-label-closed {} //.MEGA-TOGGLE-LABEL-CLOSED
+                    //     .mega-toggle-label-open {} //.MEGA-TOGGLE-LABEL-OPEN
+                    // } //.MEGA-TOGGLE-LABEL
+                } //.MEGA-TOGGLE-BLOCK.MEGA-MENU-TOGGLE-BLOCK
+            } //.MEGA-TOGGLE-BLOCKS-RIGHT
+        } //.MEGA-TOGGLE-BLOCKS
+    } //MOBILE
+
+    // DESKTOP
+    @media #{$menu-desktop} {
+        display: none;
+    } //DESKTOP
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+} //.MEGA-MENU-TOGGLE

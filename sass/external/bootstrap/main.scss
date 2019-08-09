@@ -12,5 +12,4 @@
 $bootstrap-base: $padding-xs;
 
 // @IMPORT | FILES
-@import "files/general";
-@import "files/columns";
+@import "files/general", "files/columns";
