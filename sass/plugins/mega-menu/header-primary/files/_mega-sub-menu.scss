@@ -11,6 +11,7 @@
 ul.mega-sub-menu {
     // GLOBAL
     background-color: pink;
+    padding: $padding-sm;
 
     // MOBILE
     @media #{$menu-mobile} {} //MOBILE
@@ -23,6 +24,8 @@ ul.mega-sub-menu {
 
     li.mega-menu-row {
         // GLOBAL
+        background-color: yellow;
+
         // MOBILE
         @media #{$menu-mobile} {} //MOBILE
 

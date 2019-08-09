@@ -62,6 +62,10 @@ ul.mega-sub-menu {
 
                     // BROWSERS
                     @media #{$browser-ie} {} //IE
+
+                    // @IMPORT | .MEGA-MENU-ITEM
+                    @import "mega-menu-item";
+                    
                 } //UL.MEGA-SUB-MENU
             } //LI.MEGA-MENU-COLUMNS
         } //UL.MEGA-SUB-MENU
