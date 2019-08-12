@@ -38,26 +38,38 @@
 .mega-sticky-wrapper {
     // GLOBAL
     // MOBILE
-    @media #{$menu-mobile} {
-        background-color: $header-color;
-    } //MOBILE
+    @media #{$menu-mobile} {} //MOBILE
 
     // DESKTOP
-    @media #{$menu-desktop} {
-        background-color: rgba($header-color, 0.95);
-    } //DESKTOP
+    @media #{$menu-desktop} {} //DESKTOP
 
     // BROWSERS
     @media #{$browser-ie} {} //IE
 
-    // .MEGA-MENU-TOGGLE
-    @import "files/mega-menu-toggle";
+    .mega-menu-wrap {
+        // GLOBAL
+        // MOBILE
+        @media #{$menu-mobile} {
+            background-color: $header-color;
+        } //MOBILE
 
-    // .MEGA-MENU
-    @import "files/mega-menu";
+        // DESKTOP
+        @media #{$menu-desktop} {
+            background-color: rgba($header-color, 0.95);
+        } //DESKTOP
 
-    // VERSIONS
-    @import "horizontal/mega-menu";
-    @import "stacked/mega-menu";
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
 
+        // .MEGA-MENU-TOGGLE
+        @import "files/mega-menu-toggle";
+
+        // .MEGA-MENU
+        @import "files/mega-menu";
+
+        // VERSIONS
+        @import "horizontal/mega-menu";
+        @import "stacked/mega-menu";
+
+    } //.MEGA-MENU-WRAP
 } //.MEGA-STICKY-WRAPPER
