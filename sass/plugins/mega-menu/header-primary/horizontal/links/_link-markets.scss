@@ -1,22 +1,20 @@
 /**
- * sass/plugins/mega-menu/header-primary/links/link-home.scss
+ * sass/plugins/mega-menu/header-primary/horizontal/links/link-markets.scss
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
- * Created | 8/9/2019
+ * Created | 8/12/2019
  * Updated | 
  * Notes | 
 **/
 
-li.link-home {
+li.link-markets {
     // GLOBAL
     // MOBILE
     @media #{$menu-mobile} {} //MOBILE
 
     // DESKTOP
-    @media #{$menu-desktop} {
-        margin-right: auto !important;
-    } //DESKTOP
+    @media #{$menu-desktop} {} //DESKTOP
 
     // BROWSERS
     @media #{$browser-ie} {} //IE
@@ -32,4 +30,4 @@ li.link-home {
         // BROWSERS
         @media #{$browser-ie} {} //IE
     } //A.MEGA-MENU-LINK
-} //LI.LINK-HOME
+} //LI.LINK-MARKETS

@@ -3,9 +3,9 @@
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
- * Created | 8/9/2019
+ * Created | 8/12/2019
  * Updated | 
- * Notes | 
+ * Notes | Completed.
 **/
 
 .mega-menu-toggle {
@@ -16,7 +16,7 @@
         padding: $header-padding;
 
         .mega-toggle-blocks {
-            &-left {                
+            &-left {
                 .mega-toggle-block.mega-html-block {
                     width: 100.00%;
                     display: block;
@@ -56,10 +56,6 @@
                         margin: $margin-none;
                     } //:AFTER
 
-                    // .mega-toggle-label {
-                    //     .mega-toggle-label-closed {} //.MEGA-TOGGLE-LABEL-CLOSED
-                    //     .mega-toggle-label-open {} //.MEGA-TOGGLE-LABEL-OPEN
-                    // } //.MEGA-TOGGLE-LABEL
                 } //.MEGA-TOGGLE-BLOCK.MEGA-MENU-TOGGLE-BLOCK
             } //.MEGA-TOGGLE-BLOCKS-RIGHT
         } //.MEGA-TOGGLE-BLOCKS

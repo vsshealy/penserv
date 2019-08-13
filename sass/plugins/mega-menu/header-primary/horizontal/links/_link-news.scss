@@ -1,14 +1,14 @@
 /**
- * sass/plugins/mega-menu/header-primary/links/link-contact.scss
+ * sass/plugins/mega-menu/header-primary/horizontal/links/link-news.scss
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
- * Created | 8/9/2019
+ * Created | 8/12/2019
  * Updated | 
  * Notes | 
 **/
 
-li.link-contact {
+li.link-news {
     // GLOBAL
     // MOBILE
     @media #{$menu-mobile} {} //MOBILE
@@ -30,4 +30,4 @@ li.link-contact {
         // BROWSERS
         @media #{$browser-ie} {} //IE
     } //A.MEGA-MENU-LINK
-} //LI.LINK-CONTACT
+} //LI.LINK-NEWS

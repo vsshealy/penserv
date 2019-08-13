@@ -1,20 +1,24 @@
 /**
- * sass/plugins/mega-menu/header-primary/links/link-services.scss
+ * sass/plugins/mega-menu/header-primary/horizontal/links/link-home.scss
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
- * Created | 8/9/2019
+ * Created | 8/12/2019
  * Updated | 
  * Notes | 
 **/
 
-li.link-services {
+li.link-home {
     // GLOBAL
     // MOBILE
-    @media #{$menu-mobile} {} //MOBILE
+    @media #{$menu-mobile} {
+        display: none;
+    } //MOBILE
 
     // DESKTOP
-    @media #{$menu-desktop} {} //DESKTOP
+    @media #{$menu-desktop} {
+        margin-right: auto !important;
+    } //DESKTOP
 
     // BROWSERS
     @media #{$browser-ie} {} //IE
@@ -30,4 +34,4 @@ li.link-services {
         // BROWSERS
         @media #{$browser-ie} {} //IE
     } //A.MEGA-MENU-LINK
-} //LI.LINK-SERVICES
+} //LI.LINK-HOME

@@ -1,19 +1,15 @@
 /**
- * sass/plugins/mega-menu/header-primary/links/link-login.scss
+ * sass/plugins/mega-menu/header-primary/horizontal/links/link-services.scss
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
- * Created | 8/9/2019
+ * Created | 8/12/2019
  * Updated | 
  * Notes | 
 **/
 
-li.link-login {
+li.link-services {
     // GLOBAL
-    @extend .button-solid;
-    margin-top: $margin-none;
-    margin-bottom: $margin-none;
-    
     // MOBILE
     @media #{$menu-mobile} {} //MOBILE
 
@@ -34,4 +30,4 @@ li.link-login {
         // BROWSERS
         @media #{$browser-ie} {} //IE
     } //A.MEGA-MENU-LINK
-} //LI.LINK-LOGIN
+} //LI.LINK-SERVICES

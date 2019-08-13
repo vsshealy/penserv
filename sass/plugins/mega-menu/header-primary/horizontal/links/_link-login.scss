@@ -1,0 +1,67 @@
+/**
+ * sass/plugins/mega-menu/header-primary/horizontal/links/link-login.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/12/2019
+ * Updated | 
+ * Notes | 
+**/
+
+li.link-login {
+    // GLOBAL
+    // MOBILE
+    @media #{$menu-mobile} {
+        margin: $margin-none !important;
+        padding: $padding-none !important;
+    } //MOBILE
+
+    // DESKTOP
+    @media #{$menu-desktop} {
+        margin-top: $margin-none !important;
+        margin-bottom: $margin-none !important;
+    } //DESKTOP
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    a.mega-menu-link {
+        // GLOBAL
+        background-color: $button-color;
+        border: 1px solid $button-color-alt;
+        color: $button-color-alt;
+        padding: $button-padding;
+
+        &:hover {
+            background-color: $button-color-hover;
+            color: $button-color-alt;
+            cursor: pointer;
+        } //:HOVER
+
+        // MOBILE
+        @media #{$menu-mobile} {
+            padding: $padding-xs !important;
+            border: 1px solid $button-color-alt;
+        } //MOBILE
+
+        // DESKTOP
+        @media #{$menu-desktop} {} //DESKTOP
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+        i.fas {
+            // GLOBAL
+            // MOBILE
+            @media #{$menu-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$menu-desktop} {
+                margin-left: $margin-none;
+            } //DESKTOP
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //I.FAS
+    } //A.MEGA-MENU-LINK
+} //LI.LINK-LOGIN
