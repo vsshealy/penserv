@@ -45,7 +45,7 @@
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A harum reprehenderit, repellat ducimus minus obcaecati quidem voluptatem iure delectus, quisquam nisi sint deleniti unde voluptates est accusamus. Porro, libero dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, optio. Ipsum tempora tenetur, magnam nihil explicabo officiis ut numquam saepe modi voluptatum. Nulla eos architecto dolor, neque nisi unde quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis iusto aliquid libero quas officiis consequatur quibusdam odit, laboriosam, a mollitia sint sunt velit cupiditate, quo ab saepe error ipsum.</p>
 
-                        <a href="/services/advocacy" class="button-solid"><i class="fas fa-chevron-circle-right"></i>View Services</a>
+                        <a href="/services/advocacy" class="button-ghost"><i class="fas fa-chevron-circle-right"></i>View Services</a>
 
                     </div>
                 </div>

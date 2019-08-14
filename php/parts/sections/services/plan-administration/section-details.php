@@ -63,7 +63,7 @@
                                         <h6><i class="<?php echo the_field('service-icon'); ?>"></i></h6>
                                         <h4><?php the_title(); ?></h4>
 
-                                        <p><?php the_field('service-descriptionShort'); ?></p>
+                                        <?php the_field('service-descriptionShort'); ?>
 
                                     </div>
                                 </div>
