@@ -12,6 +12,7 @@
     // GLOBAL
     position: relative;
     padding: $margin-sm;
+    z-index: 1;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS

@@ -14,7 +14,7 @@
     width: 100.00%;
     display: block;
     position: absolute;
-    background-color: $color-penserv1;
+    z-index: 1;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS

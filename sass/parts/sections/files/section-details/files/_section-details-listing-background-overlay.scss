@@ -10,6 +10,13 @@
 
 .section-details-listing-background-overlay {
     // GLOBAL
+    height: 100.00%;
+    width: 100.00%;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.80;
+
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
@@ -25,6 +32,12 @@
 
     &-1 {
         // GLOBAL
+        height: 100.00%;
+        width: 100.00%;
+        display: block;
+        position: absolute;
+        z-index: 5;
+
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -41,6 +54,12 @@
 
     &-2 {
         // GLOBAL
+        height: 100.00%;
+        width: 100.00%;
+        display: block;
+        position: absolute;
+        z-index: 4;
+
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -57,6 +76,12 @@
 
     &-3 {
         // GLOBAL
+        height: 100.00%;
+        width: 100.00%;
+        display: block;
+        position: absolute;
+        z-index: 3;
+
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -73,6 +98,12 @@
 
     &-4 {
         // GLOBAL
+        height: 100.00%;
+        width: 100.00%;
+        display: block;
+        position: absolute;
+        z-index: 2;
+
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -89,6 +120,12 @@
 
     &-5 {
         // GLOBAL
+        height: 100.00%;
+        width: 100.00%;
+        display: block;
+        position: absolute;
+        z-index: 1;
+
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM

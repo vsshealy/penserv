@@ -14,6 +14,10 @@
     width: 100.00%;
     display: block;
     position: absolute;
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     
     // MOBILE
     @media #{$screen-xs} {} //COL-XS

@@ -14,6 +14,7 @@
     width: 100.00%;
     display: block;
     position: absolute;
+    z-index: 0;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
@@ -45,6 +46,8 @@
 
         .col-xl-12 {
             // GLOBAL
+            position: relative;
+            
             // MOBILE
             @media #{$screen-xs} {} //COL-XS
             @media #{$screen-sm} {} //COL-SM

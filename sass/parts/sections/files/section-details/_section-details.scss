@@ -104,10 +104,14 @@
 
                     .section-details {
                         // GLOBAL
+                        display: none;
+
                         // MOBILE
                         @media #{$screen-xs} {} //COL-XS
                         @media #{$screen-sm} {} //COL-SM
-                        @media #{$screen-md} {} //COL-MD
+                        @media #{$screen-md} {
+                            display: block;
+                        } //COL-MD
                         @media #{$device-mobile} {} //MOBILE
 
                         // DESKTOP
@@ -134,6 +138,11 @@
 
                             .col-xl-12 {
                                 // GLOBAL
+                                width: 100.00%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                padding: $padding-sm $padding-xs;
+
                                 // MOBILE
                                 @media #{$screen-xs} {} //COL-XS
                                 @media #{$screen-sm} {} //COL-SM
