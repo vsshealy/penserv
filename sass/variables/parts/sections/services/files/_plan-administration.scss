@@ -9,8 +9,8 @@
 **/
 
 // $SERVICES-ADMINISTRATION
-$services-administration-color: $services-color;
 $services-administration-background: lighten($services-administration-color, 90%);
-$services-administration-overlay: linear-gradient(45deg, rgba(darken($services-administration-color, 95%), 0.90), rgba(darken($services-administration-color, 85%), 0.75), rgba(darken($services-administration-color, 80%), 0.30));
+$services-administration-overlay: linear-gradient(45deg, rgba(darken($services-administration-color, 95%), 0.95), rgba(darken($services-administration-color, 85%), 0.60), rgba(darken($services-administration-color, 80%), 0.00));
+$services-administration-listing-overlay: lighten($services-administration-color, ($color-adjustment-base * 1.00));
 $services-administration-border: $services-border;
 $services-administration-image: url("/wp-content/uploads/image-family01-1920x1080.jpg");

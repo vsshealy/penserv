@@ -108,7 +108,9 @@
                         @media #{$device-mobile} {} //MOBILE
 
                         // DESKTOP
-                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-lg} {
+                            border: $border-width solid $services-recordkeeping-border;
+                        } //COL-LG
                         @media #{$screen-xl} {} //COL-XL
 
                         // BROWSERS

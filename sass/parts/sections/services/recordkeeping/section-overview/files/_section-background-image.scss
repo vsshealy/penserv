@@ -10,6 +10,8 @@
 
 .section-background-image {
     // GLOBAL
+    background-image: $services-recordkeeping-image;
+
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM

@@ -25,6 +25,8 @@
 
     a {
         // GLOBAL
+        border: 1px solid darken($services-consulting-color, ($color-adjustment-base * 2.00));
+
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM

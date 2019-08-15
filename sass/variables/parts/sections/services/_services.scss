@@ -13,8 +13,18 @@ $services-color: $color-penserv3;
 $services-background: $color-penserv3-light-12;
 $services-border: $color-penserv1;
 
-// @IMPORT | FILES
-@import "files/advocacy";
-@import "files/consulting";
+// #SERVICES-ADMINISTRATION
+$services-administration-color: $services-color;
 @import "files/plan-administration";
+
+// #SERVICES-RECORDKEEPING
+$services-recordkeeping-color: $services-color;
 @import "files/recordkeeping";
+
+// #SERVICES-CONSULTING
+$services-consulting-color: $services-color;
+@import "files/consulting";
+
+// #SERVICES-ADVOCACY
+$services-advocacy-color: $services-color;
+@import "files/advocacy";

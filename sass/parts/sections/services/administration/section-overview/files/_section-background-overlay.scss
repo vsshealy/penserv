@@ -10,6 +10,8 @@
 
 .section-background-overlay {
     // GLOBAL
+    background: $services-administration-overlay;
+    
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM

@@ -10,6 +10,8 @@
 
 .section-details-listing-background-overlay {
     // GLOBAL
+    background: $services-advocacy-listing-overlay;
+
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM

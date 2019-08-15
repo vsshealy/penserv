@@ -10,6 +10,8 @@
 
 #services-advocacy {
     // GLOBAL
+    $background-color: $services-advocacy-background;
+
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM

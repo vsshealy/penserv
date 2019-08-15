@@ -10,6 +10,8 @@
 
 #services-consulting {
     // GLOBAL
+    $background-color: $services-consulting-background;
+
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM

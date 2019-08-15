@@ -12,8 +12,6 @@
     // GLOBAL
     height: $section-height;
     display: block;
-    margin-top: $section-margin !important;
-    margin-bottom: $section-margin !important;
     padding: $section-padding;
     background-color: $section-background-color;
 
@@ -25,7 +23,8 @@
 
     // DESKTOP
     @media #{$screen-lg} {
-        margin: $section-margin;
+        margin-top: $section-margin !important;
+        margin-bottom: $section-margin !important;
         box-shadow: $shadow-main;
     } //COL-LG
     @media #{$screen-xl} {} //COL-XL

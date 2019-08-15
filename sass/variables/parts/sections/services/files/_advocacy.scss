@@ -9,8 +9,8 @@
 **/
 
 // $SERVICES-ADVOCACY
-$services-advocacy-color: $services-color;
 $services-advocacy-background: lighten($services-advocacy-color, 90%);
 $services-advocacy-overlay: linear-gradient(45deg, rgba(darken($services-advocacy-color, 95%), 0.90), rgba(darken($services-advocacy-color, 85%), 0.75), rgba(darken($services-advocacy-color, 80%), 0.30));
+$services-advocacy-listing-overlay: lighten($services-advocacy-color, ($color-adjustment-base * 1.00));
 $services-advocacy-border: $services-border;
 $services-advocacy-image: url("/wp-content/uploads/image-family01-1920x1080.jpg");
