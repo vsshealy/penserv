@@ -1,0 +1,89 @@
+/**
+ * sass/parts/sections/services/administration/section-details/files/section-details-listing-content.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/14/2019
+ * Updated | 
+ * Notes | 
+**/
+
+.section-details-listing-content {
+    // GLOBAL
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    .wrapper-inner {
+        // GLOBAL
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+        h6 {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //H6
+
+        h4 {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //H4
+
+        p {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //P
+    } //.WRAPPER-INNER
+} //.SECTION-DETAILS-LISTING-CONTENT

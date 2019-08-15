@@ -1,0 +1,62 @@
+/**
+ * sass/parts/sections/services/consulting/section-overview/files/section-background.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/14/2019
+ * Updated | 
+ * Notes | 
+**/
+
+.section-background {
+    // GLOBAL
+    // MOBILE
+    @media #{$screen-xs} {} //COL-XS
+    @media #{$screen-sm} {} //COL-SM
+    @media #{$screen-md} {} //COL-MD
+    @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+    @media #{$screen-lg} {} //COL-LG
+    @media #{$screen-xl} {} //COL-XL
+
+    // BROWSERS
+    @media #{$browser-ie} {} //IE
+
+    .wrapper-inner.row {
+        // GLOBAL
+        // MOBILE
+        @media #{$screen-xs} {} //COL-XS
+        @media #{$screen-sm} {} //COL-SM
+        @media #{$screen-md} {} //COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+        @media #{$screen-lg} {} //COL-LG
+        @media #{$screen-xl} {} //COL-XL
+
+        // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+        .col-xl-12 {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+            // @IMPORT | FILES
+            @import "section-background-image";
+            @import "section-background-overlay";
+
+        } //.COL-XL-12
+    } //.WRAPPER-INNER.ROW
+} //.SECTION-BACKGROUND
