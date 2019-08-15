@@ -1,5 +1,5 @@
 /**
- * sass/parts/sections/files/section-details/section-details.scss
+ * sass/parts/sections/files/section-overview/section-overview.scss
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
@@ -8,10 +8,9 @@
  * Notes | 
 **/
 
-.elementor-inner-column.row.col-xl-12 {
+.elementor-element.row.col-xl-12 {
     // GLOBAL
-    width: 100.00%;
-    position: relative;
+    padding: $padding-none;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
@@ -102,7 +101,7 @@
                         @media #{$browser-ie} {} //IE
                     } //H5
 
-                    .section-details {
+                    .section-overview {
                         // GLOBAL
                         // MOBILE
                         @media #{$screen-xs} {} //COL-XS
@@ -111,7 +110,9 @@
                         @media #{$device-mobile} {} //MOBILE
 
                         // DESKTOP
-                        @media #{$screen-lg} {} //COL-LG
+                        @media #{$screen-lg} {
+                            border: $border-width solid $color-penserv1;
+                        } //COL-LG
                         @media #{$screen-xl} {} //COL-XL
 
                         // BROWSERS
@@ -134,6 +135,9 @@
 
                             .col-xl-12 {
                                 // GLOBAL
+                                padding: $padding-none;
+                                position: relative;
+
                                 // MOBILE
                                 @media #{$screen-xs} {} //COL-XS
                                 @media #{$screen-sm} {} //COL-SM
@@ -148,13 +152,14 @@
                                 @media #{$browser-ie} {} //IE
 
                                 // @IMPORT | FILES
-                                @import "files/section-details-listing";
-
+                                @import "files/section-background";
+                                @import "files/section-content";
+                                
                             } //.COL-XL-12
                         } //.WRAPPER-INNER.ROW
-                    } //.SECTION-DETAILS
+                    } //.SECTION-OVERVIEW
                 } //.ELEMENTOR-WIDGET-CONTAINER
             } //.ELEMENTOR-WIDGET-WP-WIDGET-PHPEVERYWHEREWIDGET
         } //.ELEMENTOR-WIDGET-WRAP
     } //.ELEMENTOR-COLUMN-WRAP.ELEMENTOR-ELEMENT-POPULATED
-} //.ELEMENTOR-INNER-COLUMN.ROW.COL-XL-12
+} //.ELEMENTOR-ELEMENT.ROW.COL-XL-12

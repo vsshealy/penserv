@@ -1,0 +1,20 @@
+/**
+ * sass/variables/parts/sections/services/services.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/15/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// VARIABLES
+$services-color: $color-penserv3;
+$services-background: $color-penserv3-light-12;
+$services-border: $color-penserv1;
+
+// @IMPORT | FILES
+@import "files/advocacy";
+@import "files/consulting";
+@import "files/plan-administration";
+@import "files/recordkeeping";

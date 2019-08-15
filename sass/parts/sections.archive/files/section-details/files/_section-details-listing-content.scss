@@ -1,5 +1,5 @@
 /**
- * sass/parts/sections/files/section-overview/files/section-background.scss
+ * sass/parts/sections/files/section-details/files/section-details-listing-content.scss
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
@@ -8,13 +8,8 @@
  * Notes | 
 **/
 
-.section-background {
+.section-details-listing-content {
     // GLOBAL
-    height: 100.00%;
-    width: 100.00%;
-    display: block;
-    position: absolute;
-
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
@@ -28,7 +23,7 @@
     // BROWSERS
     @media #{$browser-ie} {} //IE
 
-    .wrapper-inner.row {
+    .wrapper-inner {
         // GLOBAL
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
@@ -43,7 +38,7 @@
         // BROWSERS
         @media #{$browser-ie} {} //IE
 
-        .col-xl-12 {
+        h6 {
             // GLOBAL
             // MOBILE
             @media #{$screen-xs} {} //COL-XS
@@ -57,11 +52,38 @@
 
             // BROWSERS
             @media #{$browser-ie} {} //IE
+        } //H6
 
-            // @IMPORT | FILES
-            @import "section-background-image";
-            @import "section-background-overlay";
+        h4 {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
 
-        } //.COL-XL-12
-    } //.WRAPPER-INNER.ROW
-} //.SECTION-BACKGROUND
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //H4
+
+        p {
+            // GLOBAL
+            // MOBILE
+            @media #{$screen-xs} {} //COL-XS
+            @media #{$screen-sm} {} //COL-SM
+            @media #{$screen-md} {} //COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+            @media #{$screen-lg} {} //COL-LG
+            @media #{$screen-xl} {} //COL-XL
+
+            // BROWSERS
+            @media #{$browser-ie} {} //IE
+        } //P
+    } //.WRAPPER-INNER
+} //.SECTION-DETAILS-LISTING-CONTENT

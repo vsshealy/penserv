@@ -11,7 +11,7 @@
 .section {
     // GLOBAL
     height: $section-height;
-    display: block;
+    margin: $margin-none;
     padding: $section-padding;
     background-color: $section-background-color;
 
@@ -81,7 +81,6 @@
         .elementor-row {
             // GLOBAL
             flex-wrap: wrap;
-            position: relative;
 
             // MOBILE
             @media #{$screen-xs} {} //COL-XS

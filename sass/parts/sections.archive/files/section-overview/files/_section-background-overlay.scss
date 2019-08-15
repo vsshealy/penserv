@@ -10,12 +10,6 @@
 
 .section-background-overlay {
     // GLOBAL
-    height: 100.00%;
-    width: 100.00%;
-    display: block;
-    position: absolute;
-    background-color: $color-penserv1;
-
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
@@ -31,11 +25,6 @@
 
     &-1 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -52,11 +41,6 @@
 
     &-2 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -73,11 +57,6 @@
 
     &-3 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -94,11 +73,6 @@
 
     &-4 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -115,11 +89,6 @@
 
     &-5 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM

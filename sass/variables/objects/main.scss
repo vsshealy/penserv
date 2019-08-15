@@ -11,8 +11,10 @@
 // OBJECT STYLES
 $color-accent: $color-penserv4;
 $color-link: $color-penserv4;
+$color-link-alt: lighten($color-link, 100%);
 $color-hover-adjustment: $color-adjustment-base * 1.00;
 $color-link-hover: lighten($color-link, $color-hover-adjustment);
+$color-link-hover-alt: lighten($color-link-hover, 100%);
 
 // @IMPORT | FILES
 @import "files/borders";

@@ -1,0 +1,16 @@
+/**
+ * sass/variables/parts/sections/services/files/consulting.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/15/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// $SERVICES-CONSULTING
+$services-consulting-color: $services-color;
+$services-consulting-background: lighten($services-consulting-color, 90%);
+$services-consulting-overlay: linear-gradient(45deg, rgba(darken($services-consulting-color, 95%), 0.90), rgba(darken($services-consulting-color, 85%), 0.75), rgba(darken($services-consulting-color, 80%), 0.30));
+$services-consulting-border: $services-border;
+$services-consulting-image: url("/wp-content/uploads/image-family01-1920x1080.jpg");

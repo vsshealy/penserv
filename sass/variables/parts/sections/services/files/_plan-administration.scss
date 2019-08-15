@@ -1,0 +1,16 @@
+/**
+ * sass/variables/parts/sections/services/files/plan-administration.scss
+ * @package PenServ
+ * @author Scott Shealy
+ * @version 1.1.0
+ * Created | 8/15/2019
+ * Updated | 
+ * Notes | 
+**/
+
+// $SERVICES-ADMINISTRATION
+$services-administration-color: $services-color;
+$services-administration-background: lighten($services-administration-color, 90%);
+$services-administration-overlay: linear-gradient(45deg, rgba(darken($services-administration-color, 95%), 0.90), rgba(darken($services-administration-color, 85%), 0.75), rgba(darken($services-administration-color, 80%), 0.30));
+$services-administration-border: $services-border;
+$services-administration-image: url("/wp-content/uploads/image-family01-1920x1080.jpg");

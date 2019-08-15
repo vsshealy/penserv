@@ -10,7 +10,9 @@
 
 .elementor-element.row.col-xl-12 {
     // GLOBAL
+    width: 100.00%;
     padding: $padding-none;
+    position: relative;
 
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
@@ -103,16 +105,19 @@
 
                     .section-overview {
                         // GLOBAL
+                        height: auto;
+                        width: 100.00%;
+
                         // MOBILE
                         @media #{$screen-xs} {} //COL-XS
                         @media #{$screen-sm} {} //COL-SM
-                        @media #{$screen-md} {} //COL-MD
+                        @media #{$screen-md} {
+                            height: $section-overview-height;
+                        } //COL-MD
                         @media #{$device-mobile} {} //MOBILE
 
                         // DESKTOP
-                        @media #{$screen-lg} {
-                            border: $border-width solid $color-penserv1;
-                        } //COL-LG
+                        @media #{$screen-lg} {} //COL-LG
                         @media #{$screen-xl} {} //COL-XL
 
                         // BROWSERS
@@ -120,6 +125,9 @@
 
                         .wrapper-inner.row {
                             // GLOBAL
+                            height: 100.00%;
+                            width: 100.00%;
+
                             // MOBILE
                             @media #{$screen-xs} {} //COL-XS
                             @media #{$screen-sm} {} //COL-SM
@@ -135,8 +143,10 @@
 
                             .col-xl-12 {
                                 // GLOBAL
-                                padding: $padding-none;
+                                display: flex;
+                                align-items: center;
                                 position: relative;
+                                padding: $padding-none;
 
                                 // MOBILE
                                 @media #{$screen-xs} {} //COL-XS

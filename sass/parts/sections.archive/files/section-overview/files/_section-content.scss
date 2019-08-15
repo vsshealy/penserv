@@ -10,15 +10,12 @@
 
 .section-content {
     // GLOBAL
-    position: relative;
-    padding: $margin-sm;
-
+    align-items: center;
+    
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
-    @media #{$screen-md} {
-        position: absolute;
-    } //COL-MD
+    @media #{$screen-md} {} //COL-MD
     @media #{$device-mobile} {} //MOBILE
 
     // DESKTOP
@@ -43,7 +40,7 @@
         // BROWSERS
         @media #{$browser-ie} {} //IE
 
-        .col-sm-12.col-md-9.col-lg-8.col-xl-6 {
+        .col.sm-12.col-md-9.col-lg-8.col-xl-6 {
             // GLOBAL
             // MOBILE
             @media #{$screen-xs} {} //COL-XS
@@ -60,11 +57,6 @@
 
             h6 {
                 // GLOBAL
-                margin-top: $margin-none;
-                font-family: $body-text;
-                text-transform: uppercase;
-                color: $section-overview-text-heading-color;
-
                 // MOBILE
                 @media #{$screen-xs} {} //COL-XS
                 @media #{$screen-sm} {} //COL-SM
@@ -81,8 +73,6 @@
 
             h2 {
                 // GLOBAL
-                color: $section-overview-text-heading-color;
-
                 // MOBILE
                 @media #{$screen-xs} {} //COL-XS
                 @media #{$screen-sm} {} //COL-SM
@@ -99,8 +89,6 @@
 
             p {
                 // GLOBAL
-                color: $section-overview-text-body-color;
-
                 // MOBILE
                 @media #{$screen-xs} {} //COL-XS
                 @media #{$screen-sm} {} //COL-SM
@@ -117,16 +105,6 @@
 
             a.button-ghost {
                 // GLOBAL
-                margin-bottom: $margin-none;
-                border: 1px solid $color-link-alt;
-                color: $color-link-alt;
-
-                &:hover {
-                    background-color: $color-link-hover;
-                    border: 1px solid $color-link-hover;
-                    color: $color-link-hover-alt;
-                } //:HOVER
-
                 // MOBILE
                 @media #{$screen-xs} {} //COL-XS
                 @media #{$screen-sm} {} //COL-SM

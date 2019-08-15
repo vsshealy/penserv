@@ -1,5 +1,5 @@
 /**
- * sass/parts/sections/files/section-overview/files/section-background-overlay.scss
+ * sass/parts/sections/files/section-details/files/section-details-listing-background-overlay.scss
  * @package PenServ
  * @author Scott Shealy
  * @version 1.1.0
@@ -8,14 +8,8 @@
  * Notes | 
 **/
 
-.section-background-overlay {
+.section-details-listing-background-overlay {
     // GLOBAL
-    height: 100.00%;
-    width: 100.00%;
-    display: block;
-    position: absolute;
-    background-color: $color-penserv1;
-
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
@@ -31,11 +25,6 @@
 
     &-1 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -48,15 +37,10 @@
 
         // BROWSERS
         @media #{$browser-ie} {} //IE
-    } //.SECTION-BACKGROUND-OVERLAY-1
+    } //.SECTION-DETAILS-LISTING-BACKGROUND-OVERLAY-1
 
     &-2 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -69,15 +53,10 @@
 
         // BROWSERS
         @media #{$browser-ie} {} //IE
-    } //.SECTION-BACKGROUND-OVERLAY-2
+    } //.SECTION-DETAILS-LISTING-BACKGROUND-OVERLAY-2
 
     &-3 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -90,15 +69,10 @@
 
         // BROWSERS
         @media #{$browser-ie} {} //IE
-    } //.SECTION-BACKGROUND-OVERLAY-3
+    } //.SECTION-DETAILS-LISTING-BACKGROUND-OVERLAY-3
 
     &-4 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -111,15 +85,10 @@
 
         // BROWSERS
         @media #{$browser-ie} {} //IE
-    } //.SECTION-BACKGROUND-OVERLAY-4
+    } //.SECTION-DETAILS-LISTING-BACKGROUND-OVERLAY-4
 
     &-5 {
         // GLOBAL
-        height: 100.00%;
-        width: 100.00%;
-        display: block;
-        position: absolute;
-
         // MOBILE
         @media #{$screen-xs} {} //COL-XS
         @media #{$screen-sm} {} //COL-SM
@@ -132,5 +101,5 @@
 
         // BROWSERS
         @media #{$browser-ie} {} //IE
-    } //.SECTION-BACKGROUND-OVERLAY-5
-} //.SECTION-BACKGROUND-OVERLAY
+    } //.SECTION-DETAILS-LISTING-BACKGROUND-OVERLAY-5
+} //.SECTION-DETAILS-LISTING-BACKGROUND-OVERLAY

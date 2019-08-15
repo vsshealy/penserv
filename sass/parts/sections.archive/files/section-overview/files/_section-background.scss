@@ -10,11 +10,6 @@
 
 .section-background {
     // GLOBAL
-    height: 100.00%;
-    width: 100.00%;
-    display: block;
-    position: absolute;
-
     // MOBILE
     @media #{$screen-xs} {} //COL-XS
     @media #{$screen-sm} {} //COL-SM
